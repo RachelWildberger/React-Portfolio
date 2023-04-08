@@ -15,4 +15,12 @@
     margin-top: 10px;
 }
 
+.social-icon {
+  color: black;
+
+}
+
+.social-icon:hover {
+  color: hotpink;
+}
 

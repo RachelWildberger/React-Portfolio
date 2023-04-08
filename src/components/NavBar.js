@@ -5,7 +5,7 @@ function NavBar({ currentPage, handlePageChange }) {
   return (
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo" /></a>
+      <a className="navbar-brand" href="#!"><img className="logo" src={logo} alt="logo" /></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -13,7 +13,7 @@ function NavBar({ currentPage, handlePageChange }) {
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
             <a
-              href="#Home"
+              href="#home"
               onClick={() => handlePageChange('Home')}
 
               className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
@@ -23,7 +23,7 @@ function NavBar({ currentPage, handlePageChange }) {
           </li>
           <li className="nav-item">
             <a
-              href="#About"
+              href="#about"
               onClick={() => handlePageChange('About')}
 
               className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
@@ -33,7 +33,7 @@ function NavBar({ currentPage, handlePageChange }) {
           </li>
           <li className="nav-item">
             <a
-              href="#Projects"
+              href="#projects"
               onClick={() => handlePageChange('Projects')}
 
               className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
@@ -43,7 +43,7 @@ function NavBar({ currentPage, handlePageChange }) {
           </li>
           <li className="nav-item">
             <a
-              href="#Contact"
+              href="#contact"
 
               onClick={() => handlePageChange('Contact')}
               className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
@@ -53,7 +53,7 @@ function NavBar({ currentPage, handlePageChange }) {
           </li>
           <li className="nav-item">
             <a
-              href="#Resume"
+              href="#resume"
               onClick={() => handlePageChange('Resume')}
 
               className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}

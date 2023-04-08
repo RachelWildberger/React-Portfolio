@@ -16,13 +16,17 @@ export default function About() {
           <section class="container">
             <div class="row justify-content-center">
               <div className="row md-6 align-items-center">
-                <div className="col-xl-8 col-lg-8"><img className="about" style={{ width: "100%" }} src={aboutHeader} alt="Responsive image" /></div>
+                <div className="col-xl-8 col-lg-8">
+                  <img className="about" style={{ width: "100%" }} src={aboutHeader} alt="..." /></div>
                 <div className="col-xl-4 col-lg-4">
                   <div className="featured-text text-left text-lg-left">
                     <h4>Hi I'm Rachel</h4>
                     <h6>Graphic Designer | Junior Developer</h6>
-                    <p className="text-black-50 pt-2">Junior Full-Stack Web Developer and accomplished Graphic Designer with 10+ years of agency and design experience. Specializing in UX UI, front-end web projects, brand-identity, marketing campaigns, e-commerce and digital content production.</p>
-                    <p className="text-black-50 pt-2">Inspired to create playful and smart experiences, using problem solving through sleek, sophisticated design and development. With both creative and technical ability, ready for any challenging project from ideation to creation.</p>
+                    <p className="text-black-50 pt-2">I'm interested in storytelling on the digital platform to create a cohesive journey that optimizes site engagement, product discovery, conversion, and overall consumer experience via high-touch storytelling, visual design, and code.</p>
+                  </div>
+                  <div className="social d-flex justify-content-center">
+                    <a className="social-icon fa-lg  mx-2" href="#https://github.com/RachelWildberger"><i className="fa-brands fa-github"></i></a>
+                    <a className="social-icon fa-lg mx-2" href="#https://www.linkedin.com/in/rachelwildbergerdesigner/"><i className="fa-brands fa-linkedin-in"></i></a>
                   </div>
                 </div>
               </div>

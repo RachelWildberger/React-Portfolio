@@ -24,7 +24,7 @@ export default function Projects() {
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
                 </div>
               </div>
-              <a className="img-fluid" href="https://github.com/RachelWildberger/PWA-Text-Editor"><img className="project1" style={{ width: "100%"}} src={project1} alt="Responsive image" /></a>
+              <a className="img-fluid" href="https://github.com/RachelWildberger/PWA-Text-Editor"><img className="project1" style={{ width: "100%"}} src={project1} alt="..." /></a>
             </a>
           </div>
           <div className="col-md-6">
@@ -35,7 +35,7 @@ export default function Projects() {
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
                 </div>
               </div>
-              <a className="img-fluid"  href="https://github.com/btkerns96/get-a-job"><img className="project2" src={project2} style={{ width: "100%"}} alt="Responsive image" /></a>
+              <a className="img-fluid"  href="https://github.com/btkerns96/get-a-job"><img className="project2" src={project2} style={{ width: "100%"}} alt="..." /></a>
             </a>
           </div>
           <div className="col-md-6">
@@ -46,7 +46,7 @@ export default function Projects() {
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
                 </div>
               </div>
-              <a className="img-fluid" href="https://github.com/RachelWildberger/Social-Network-API"><img className="project3 " style={{ width: "100%"}} src={project3} alt="Responsive image" /></a>
+              <a className="img-fluid" href="https://github.com/RachelWildberger/Social-Network-API"><img className="project3 " style={{ width: "100%"}} src={project3} alt="..." /></a>
             </a>
           </div>
           <div className="col-md-6">
@@ -57,7 +57,7 @@ export default function Projects() {
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
                 </div>
               </div>
-              <a className="img-fluid"  href="https://github.com/RachelWildberger/Employee-Tracker"><img className="project4" src={project4} style={{ width: "100%"}} alt="Responsive image" /></a>
+              <a className="img-fluid"  href="https://github.com/RachelWildberger/Employee-Tracker"><img className="project4" src={project4} style={{ width: "100%"}} alt="..." /></a>
             </a>
           </div>
 
