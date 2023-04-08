@@ -11,8 +11,8 @@ export default function Projects() {
       <section className="content-section" id="projects">
         <div className="container px-4 px-lg-5">
           <div className="content-section-heading text-center">
-            <h3 className="text-secondary mb-0">Portfolio</h3>
-            <h2 className="mb-5">Recent Projects</h2>
+            <h1 className="mb-0">Portfolio</h1>
+            <p className="mb-">Recent Projects</p>
         </div>
         <div className="container">
           <div className="row justify-content-center">
