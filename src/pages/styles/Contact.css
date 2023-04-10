@@ -1,3 +1,11 @@
+.contact {
+  text-decoration: none;
+  color: black ;
+}
+.contact:hover {
+  color: hotpink;
+}
+
 
 .btn {
   appearance: none;

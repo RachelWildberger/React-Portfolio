@@ -2,7 +2,9 @@ import React from 'react';
 import aboutPic from '../assets/images/about-2.png'
 import './styles/About.css';
 
+
 export default function About() {
+
   return (
     <div>
 
@@ -20,9 +22,6 @@ export default function About() {
                     <h6>Graphic Designer | Junior Developer</h6>
                     <p className="text-black-50 pt-2">I'm interested in storytelling on the digital platform to create a cohesive journey that optimizes site engagement, product discovery, conversion, and overall consumer experience via high-touch storytelling, visual design, and code.</p>
                   </div>
-
-                  <div className="container"><button className="btn btn-dark" type="button">View Portfolio</button></div>
-
                 </div>
 
               </div>

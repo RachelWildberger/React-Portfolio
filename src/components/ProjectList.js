@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../pages/Projects';
 
-export default function Project() {
+export default function Projects() {
     const projects = [
         {
             id: 0,

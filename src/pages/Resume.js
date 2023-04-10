@@ -30,7 +30,7 @@ export default function Resume() {
               </div>
             </div>
             <div className="col-sm text-center">
-            <div className="mt-3">
+              <div className="mt-3">
                 <div className="mb-2"><i className="fa-solid fa-code"></i></div>
                 <h3 className="h4 mb-2">Back-End</h3>
                 <li className="text-muted mb-0">Node.js</li>
@@ -41,19 +41,19 @@ export default function Resume() {
             </div>
           </div>
         </div>
-<div className="container">
-<div clasName="row">
-        <hr className="divider" />
-        <p className="col-md text-center"></p>
-        </div>
-        <div className="container col-xl-4 col-lg-4">
-          <a           
-          href={resumePdf} 
-          className="btn btn-dark " 
-          type="button" download>
-            Download Resume
-          </a>
-        </div>
+        <div className="container">
+          <div clasName="row">
+            <hr className="divider" />
+            <p className="col-md text-center"></p>
+          </div>
+          <div className="container col-xl-4 col-lg-4">
+              <a
+                href={resumePdf}
+                className="btn btn-dark"
+                type="button" download>
+                Download Resume
+              </a>
+          </div>
         </div>
       </section>
     </div>

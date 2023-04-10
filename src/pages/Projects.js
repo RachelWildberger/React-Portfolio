@@ -1,24 +1,72 @@
 import React from 'react';
+import './styles/Projects.css';
+import project1 from '../assets/images/project-1.png'
+import project2 from '../assets/images/project-4.png'
+import project3 from '../assets/images/project-2.png'
+import project4 from '../assets/images/project-3.png'
 
 export default function Projects() {
   return (
     <div>
-      <h1>Project Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <section className="content-section" id="projects">
+        <div className="container px-4 px-lg-5">
+          <div className="content-section-heading text-center">
+            <h1 className="mb-0">Projects</h1>
+            <p className="mb-">Take a look at some of my recent Projects:</p>
+        </div>
+        <div className="container">
+          <div className="row justify-content-center">
+          <div className="col-md-6">
+          <a className="portfolio-item" href="https://github.com/RachelWildberger/PWA-Text-Editor">
+              <div className="caption">
+                <div className="caption-content">
+                  <div className="h3">PWA: Text Editor</div>
+                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+                </div>
+              </div>
+              <a className="img-fluid" href="https://github.com/RachelWildberger/PWA-Text-Editor"><img className="project1" style={{ width: "100%"}} src={project1} alt="..." /></a>
+            </a>
+          </div>
+          <div className="col-md-6">
+          <a className="portfolio-item" href="https://github.com/btkerns96/get-a-job">
+              <div className="caption">
+                <div className="caption-content">
+                  <div className="h3">Get a Job: Job Board</div>
+                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+                </div>
+              </div>
+              <a className="img-fluid"  href="https://github.com/btkerns96/get-a-job"><img className="project2" src={project2} style={{ width: "100%"}} alt="..." /></a>
+            </a>
+          </div>
+          <div className="col-md-6">
+          <a className="portfolio-item" href="https://github.com/RachelWildberger/Social-Network-API">
+              <div className="caption">
+                <div className="caption-content">
+                  <div className="h3">NoSQL: Socil Network API</div>
+                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+                </div>
+              </div>
+              <a className="img-fluid" href="https://github.com/RachelWildberger/Social-Network-API"><img className="project3 " style={{ width: "100%"}} src={project3} alt="..." /></a>
+            </a>
+          </div>
+          <div className="col-md-6">
+          <a className="portfolio-item" href="https://github.com/RachelWildberger/Employee-Tracker">
+              <div className="caption">
+                <div className="caption-content">
+                  <div className="h3">Employee Tracker</div>
+                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+                </div>
+              </div>
+              <a className="img-fluid" href="https://github.com/RachelWildberger/Employee-Tracker"><img className="project4" src={project4} style={{ width: "100%"}} alt="..." /></a>
+            </a>
+          </div>
+
+
+          </div>
+
+        </div>
+        </div>
+      </section>
     </div>
   );
 }

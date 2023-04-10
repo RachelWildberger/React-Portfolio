@@ -43,15 +43,32 @@ export default function Contact() {
 
   return (
     <div>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm text-center">
+              <div className="mt-3">
+                <h3 className="h4 mb-2">Email:</h3>
+                
+                <a className="contact" href="mailto://rachelwildberger@icloud.com">rachelwildberger@icloud.com</a>
+              </div>
+            </div>
+            <div className="col-sm text-center">
+              <div className="mt-3">
+             <h3 className="h4 mb-2">Phone:</h3>
+                <a className="contact" href="tel:213.921.0610">213.921.0610</a>
+              </div>
+            </div>
+          </div>
+        </div>
       <div className="content-section-heading text-center">
-        <h1 className="mb-0">Contact</h1>
+        <h1 className="mb-0">Questions</h1>
         <p className="mb-5">Please fill out the form below:</p>
       </div>
 
       <section className="page-section">
         <div className="row gx-4 gx-lg-5 justify-content-center mb-5">
           <div className="col-lg-6">
-            <form className="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form className="contact-form">
 
             <div className="form-group">
               <div className="form-floating mb-3">
@@ -83,7 +100,7 @@ export default function Contact() {
                 <div className="form-floating mb-3">
                   <div className="md-form mb-0">
                     <textarea className='form-control'
-                      rows="3" 
+                      rows="4" 
                       value={message}
                       name="message"
                       onChange={handleInputChange}

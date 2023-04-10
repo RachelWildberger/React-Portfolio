@@ -3,3 +3,14 @@
     margin: 0.75rem;
 }
 
+.header {
+    color: white;
+    text-align: center;
+    background-image: url("assets/images/about-1.png");
+    height: 150px;
+    padding-top: 30px;
+}
+
+.h1 {
+    text-justify: center;
+}

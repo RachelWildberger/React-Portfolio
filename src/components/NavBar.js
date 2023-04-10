@@ -7,7 +7,8 @@ function NavBar({ currentPage, handlePageChange }) {
     <nav class="navbar navbar-expand-lg">
       <a 
       className="navbar-brand" 
-      href="#!"><img 
+      href="#home"><img 
+      alt="..."
       className="logo" 
       src={logo} />
       </a>
@@ -18,8 +19,9 @@ function NavBar({ currentPage, handlePageChange }) {
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
             <a 
-            href="#about" 
+            href="#!" 
             onClick={() => handlePageChange('About')}
+
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >About</a>
           </li>
