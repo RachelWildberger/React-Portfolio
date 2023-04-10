@@ -1,8 +1,8 @@
 {
-  "homepage": "http://RachelWildberger.github.io/React-Portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://RachelWildberger.github.io/React-Portfolio",
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "@testing-library/jest-dom": "^5.16.4",

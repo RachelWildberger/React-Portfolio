@@ -17,7 +17,7 @@
   * ``npm start``
 
   ## Useage 
- View the deployed site [here](https://drive.google.com/file/d/16Wg8OVcxMUf22gNFu9plRhyAmG44_hM-/view?usp=sharing).
+ View the deployed site [here](https://rachelwildberger.github.io/React-Portfolio/).
   
 ![React Portfolio About Page](./src/assets/images/react-portfolio-01.png)
 ![React Portfolio Resume Page](./src/assets/images/react-portfolio-02.png)
