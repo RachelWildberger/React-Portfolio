@@ -4,25 +4,45 @@ import logo from '../logo.png'
 function NavBar({ currentPage, handlePageChange }) {
   return (
 
-    <nav className="navbar navbar-expand-lg">
-      <a className="navbar-brand" href="#!"><img className="logo" src={logo} alt="logo" /></a>
+    <nav class="navbar navbar-expand-lg">
+      <a 
+      className="navbar-brand" 
+      href="#!"><img 
+      className="logo" 
+      src={logo} />
+      </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
-          <li className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
-            <a href="#about" onClick={() => handlePageChange('About')}>About</a>
+          <li className="nav-item">
+            <a 
+            href="#about" 
+            onClick={() => handlePageChange('About')}
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+            >About</a>
           </li>
-          <li className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>
-            <a href="#portfolio"
-              onClick={() => handlePageChange('Projects')}>Projects</a>
+          <li className="nav-item">
+            <a 
+            href="#projects" 
+            onClick={() => handlePageChange('Projects')}
+            className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+            >Projects</a>
           </li>
-          <li className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
-            <a href="#contact" onClick={() => handlePageChange('Contact')}>Contact</a>
+          <li className="nav-item">
+            <a 
+            href="#contact" 
+            onClick={() => handlePageChange('Contact')}
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            >Contact</a>
           </li>
-          <li className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
-            <a href="#resume" onClick={() => handlePageChange('Resume')}>Resume</a>
+          <li className="nav-item">
+            <a 
+            href="#resume" 
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+            >Resume</a>
           </li>
         </ul>
       </div>
