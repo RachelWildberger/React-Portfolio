@@ -21,7 +21,7 @@ export default function Projects() {
               <div className="caption">
                 <div className="caption-content">
                   <div className="h3">PWA: Text Editor</div>
-                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+                  <p className="mb-4">This application is a web text editor that runs in the browser. This is a single-page application that meets the PWA criteria.</p>
                 </div>
               </div>
               <a className="img-fluid" href="https://github.com/RachelWildberger/PWA-Text-Editor"><img className="project1" style={{ width: "100%"}} src={project1} alt="..." /></a>
@@ -32,7 +32,7 @@ export default function Projects() {
               <div className="caption">
                 <div className="caption-content">
                   <div className="h3">Get a Job: Job Board</div>
-                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+                  <p className="mb-4">Built a Job Board site, where users can publish jobs, create an account, upload a resume, search jobs by keyword or location, and save job listings.</p>
                 </div>
               </div>
               <a className="img-fluid"  href="https://github.com/btkerns96/get-a-job"><img className="project2" src={project2} style={{ width: "100%"}} alt="..." /></a>
@@ -43,7 +43,7 @@ export default function Projects() {
               <div className="caption">
                 <div className="caption-content">
                   <div className="h3">NoSQL: Socil Network API</div>
-                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+                  <p className="mb-4">In this project I built an API for a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list.</p>
                 </div>
               </div>
               <a className="img-fluid" href="https://github.com/RachelWildberger/Social-Network-API"><img className="project3 " style={{ width: "100%"}} src={project3} alt="..." /></a>
@@ -54,7 +54,7 @@ export default function Projects() {
               <div className="caption">
                 <div className="caption-content">
                   <div className="h3">Employee Tracker</div>
-                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+                  <p className="mb-4">Built a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.</p>
                 </div>
               </div>
               <a className="img-fluid" href="https://github.com/RachelWildberger/Employee-Tracker"><img className="project4" src={project4} style={{ width: "100%"}} alt="..." /></a>
