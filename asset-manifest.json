@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio./static/css/main.1a7d94d7.css",
+    "main.js": "/React-Portfolio./static/js/main.72155f53.js",
+    "static/media/about-1.png": "/React-Portfolio./static/media/about-1.23db46d3e4920285566e.png",
+    "static/media/project-3.png": "/React-Portfolio./static/media/project-3.e95c9adfe125d3afaf97.png",
+    "static/media/about-2.png": "/React-Portfolio./static/media/about-2.addb0e0eb2aa7bf926bc.png",
+    "static/media/project-4.png": "/React-Portfolio./static/media/project-4.eefe3c449aed9fbb4611.png",
+    "static/media/project-1.png": "/React-Portfolio./static/media/project-1.1fe181c7ff7fc0b179b5.png",
+    "static/media/project-2.png": "/React-Portfolio./static/media/project-2.2ca41e66406b247c230b.png",
+    "static/media/Wildberger-Resume-2023.pdf": "/React-Portfolio./static/media/Wildberger-Resume-2023.9fa481c08f726e03b178.pdf",
+    "index.html": "/React-Portfolio./index.html",
+    "main.1a7d94d7.css.map": "/React-Portfolio./static/css/main.1a7d94d7.css.map",
+    "main.72155f53.js.map": "/React-Portfolio./static/js/main.72155f53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a7d94d7.css",
+    "static/js/main.72155f53.js"
+  ]
+}
